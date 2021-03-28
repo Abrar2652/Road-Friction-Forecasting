@@ -4,3 +4,15 @@ The Colab Notebook link of this project: https://colab.research.google.com/drive
 
 
 View this project on nbviewer (if you face any problem opening Jupyter Notebook): https://nbviewer.jupyter.org/github/Abrar2652/Road-Friction-Forecasting/blob/master/Road_Friction_Forecasting.ipynb 
+
+
+## Dataset Collection
+The dataset has been collected from the Smart Road - Winter Road Maintenance Challenge 2021 organized by UiT The Arctic University of Norway on Devpost.
+
+Dataset download link: https://uitno.app.box.com/s/bch09z27weq0wpcv8dbbc18sxz6cycjt
+
+After downloading the smart_road_measurements.csv file from the competition page, we had added extra columns collecting data from the external resources authorized the organizers. The links of the external datasets are:
+
+[1] Weather data https://pypi.org/project/wwo-hist/
+
+[2] UV Index data https://pyowm.readthedocs.io/en/latest/v3/uv-api-usage-examples.html
