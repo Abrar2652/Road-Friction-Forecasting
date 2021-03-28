@@ -97,7 +97,7 @@ df = transform_to_supervised(df, previous_steps=24, forecast_steps=1, dropnan=Tr
 Y = df.loc[:, "Friction(t)"].to_numpy()
 
 cols = [c for c in df.columns if '(t)' not in c]
-df=df[cols]
+data=df[cols]
 
 data['Friction'] = Y
 data.to_csv('test.csv')
