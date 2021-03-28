@@ -26,3 +26,4 @@ After downloading the smart_road_measurements.csv file from the competition page
 5. XGBooster regressor
 6. Matplotlib
 7. Seaborn heatmap
+8. Optuna
