@@ -98,8 +98,7 @@ Y = df.loc[:, "Friction(t)"].to_numpy()
 
 cols = [c for c in df.columns if '(t)' not in c]
 df=df[cols]
-cols = [c for c in df.columns if "Friction" not in c]
-data=df[cols]
+
 data['Friction'] = Y
 data.to_csv('test.csv')
 data = data.values.tolist()
