@@ -8,6 +8,7 @@ View this project on nbviewer (if you face any problem opening Jupyter Notebook)
 
 ## Dataset Collection
 The dataset has been collected from the Smart Road - Winter Road Maintenance Challenge 2021 organized by UiT The Arctic University of Norway on Devpost.
+Hackathon link: https://dit4bears.devpost.com
 
 Dataset download link: https://uitno.app.box.com/s/bch09z27weq0wpcv8dbbc18sxz6cycjt
 
@@ -16,3 +17,12 @@ After downloading the smart_road_measurements.csv file from the competition page
 [1] Weather data https://pypi.org/project/wwo-hist/
 
 [2] UV Index data https://pyowm.readthedocs.io/en/latest/v3/uv-api-usage-examples.html
+
+## Technologies Used
+1. Python
+2. Jupyter Notebook
+3. Microsoft Excel
+4. Pandas 
+5. XGBooster regressor
+6. Matplotlib
+7. Seaborn heatmap
